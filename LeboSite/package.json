@@ -1,8 +1,8 @@
 {
-  "name": "apocrypha",
+  "name": "lebosepeng",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apocrypha.glados.co.za",
+  "homepage": "https://lebo-sepeng.github.io/IMY320/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
