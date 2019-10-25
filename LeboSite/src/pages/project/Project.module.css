@@ -1,0 +1,57 @@
+
+/* For desktop: *//* For desktop: *//* For desktop: *//* For desktop: */
+
+    .ProjectContainer {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .ProjectImage {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+    }
+
+    .ProjectImageGallery {
+
+    }
+
+    .Project {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .ProjectName {
+        padding-top: 120px;
+        font-size: 40px;
+        color: #255d3a;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+
+    }
+
+    .ProjectDescription {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 0px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+
+
+    p{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+
+
+    }

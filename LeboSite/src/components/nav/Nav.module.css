@@ -1,0 +1,68 @@
+.Nav {
+    margin: 0 auto;
+    display: flex;
+    height: 176px;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.HomeWidth {
+    margin: 0 0;
+}
+
+.Logo {
+    height: 176px;
+    width: 176px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.Logo img {
+    height: 100%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+ 
+.Nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: #F2F3F4;
+    position: relative;
+}
+
+.Nav a:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 20px;
+    left: 50%;
+    border-bottom: 2px solid #FF6B38;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Nav a.active::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 20px;
+    border-bottom: 2px solid #006B38;
+    width: 40%;
+    right: 60%;
+    left: 30%;
+}
+
+.Nav a:hover:before {
+    width: 40%; 
+    left: 30%;
+    right: 60%;
+}
+
+.Nav a:active::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 20px;
+    border-bottom: 2px solid blue;
+}

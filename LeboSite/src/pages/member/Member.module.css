@@ -1,0 +1,29 @@
+.MemberContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Member {
+    display: flex;
+    flex-direction: row;
+}
+
+.MemberImage {
+    display: flex;
+    flex-direction: column;
+}
+
+.MemberProject {
+    display: flex;
+    flex-direction: column;
+}
+
+.MemberInformation {
+    display: flex;
+    flex-direction: row;
+}
+
+.MemberDescription {
+    display: flex;
+    flex-direction: column;
+}

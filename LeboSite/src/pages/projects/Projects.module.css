@@ -1,0 +1,107 @@
+.Grid {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+.Grid .Item {
+    width: 21.833%;
+    padding-bottom: 21.833%;
+    overflow: hidden;
+    float: left;
+    background: rgb(109, 60, 224);
+    transform: rotate(45deg);
+    margin: 5.5%;
+    margin-top: -11%;
+}
+
+.Grid .Inner {
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 142%;
+    height: 142%;
+    transform: rotate(-45deg);
+    text-align: center;
+    font-size: 2em;
+    margin-left: -22.507%;
+    margin-top: -22.507%;
+}
+
+.Inner img {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.AltText {
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 0;
+    background-color: rgba(34, 51, 59, 0.548);
+}
+
+.AltText span {
+    padding: 8%;
+}
+
+.AltText:hover {
+    opacity: 1;
+}
+
+.AltText span {
+    padding-bottom: 1em;
+}
+
+.Grid::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Grid .Item:nth-child(1),
+.Grid .Item:nth-child(2),
+.Grid .Item:nth-child(3) {
+    margin-top: 5%;
+    
+}
+
+.Grid .Item:nth-child(5n+4) {
+    margin-left: 21.9%;
+}
+
+.Grid .Item:nth-child(5n+6) {
+    clear:left;
+}
+
+.Grid .Item:nth-child(5n+6):last-of-type {
+    margin-left: 38.25%;
+}
+
+.Grid .Item:hover {
+    background: #FFF;
+}
+
+@media only screen and (min-width: 1020px) {
+  /* For desktop: */
+    .Grid {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+}

@@ -1,0 +1,33 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.imageDiv {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    clip-path: polygon(100% 0, 47% 0, 10% 100%, 100% 100%)
+}
+
+img.Einstein {
+    object-fit: fill;
+    height: 100%;
+}
+
+.Home .Welcome {
+    font-size: 44px;
+}
+
+.Home .Header {
+    font-size: 60px;
+}
+
+.Home p {
+    font-size: 20px;
+    padding-left: 0px;
+}
